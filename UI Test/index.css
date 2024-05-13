@@ -10,6 +10,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 500vh;
+    
 }
 
 .cards_wrapper {
@@ -131,7 +132,7 @@ body {
     position: absolute;
     width: 190px;
     border: 2px dashed white;
-    transform: translateX(-182%);
+    transform: translateX(-267%);
 }
 
 .line1::before,
@@ -143,7 +144,7 @@ body {
     position: absolute;
     border: 2px dashed white;
     height: 270px;
-    transform: translate(-163px, 5px);
+    transform: translate(-328.5px, 5px);
 
 }
 
@@ -186,7 +187,7 @@ body {
     position: absolute;
     border: 2px dashed white;
     height: 270px;
-    transform: translate(163px, 3px);
+    transform: translate(328.5px, 3px);
 }
 
 .line2::after,
@@ -196,9 +197,9 @@ body {
 .line10::after {
     content: '';
     position: absolute;
-    width: 190px;
+    width: 189px;
     border: 2px dashed white;
-    transform: translate(163px, 0);;
+    transform: translate(328px, 0);;
 }
 
 
